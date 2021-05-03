@@ -1,0 +1,20 @@
+.divBlack {
+  font-family: sans-serif;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 300px;
+  width: 900px;
+  background-color: #191D2F;
+  
+}
+
+.divWhite {
+  font-family: sans-serif;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 300px;
+  width: 900px;
+  background-color: #F9FAFC;
+  
+}
+
