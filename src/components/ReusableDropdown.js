@@ -8,14 +8,11 @@ const SelectDrop = (props) => {
       return {
         ...styles,
         //theme white
+        //according to props here we are changes color and style 
         backgroundColor: props.data.theme === 'black' ? (isSelected ? "#00A3BE" : isFocused ? "#6E7492" : "#191D2F")
           : (isSelected ? "#00A3BE" : isFocused ? "#ECEEF4" : ""),
 
         color: props.data.theme === 'black' ? (isFocused ? "#F9FAFC" : "#F9FAFC") : (isSelected ? "#F9FAFC" : "#191D2F"),
-
-        //theme black
-        // backgroundColor: isSelected ? "#00A3BE" : isFocused ?  "#6E7492" : "#191D2F",
-        // color: isFocused ? "#F9FAFC" : "#F9FAFC",
 
         display: "flex",
         paddingLeft: 0,
